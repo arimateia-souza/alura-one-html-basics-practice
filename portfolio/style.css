@@ -12,9 +12,9 @@ i {
 body {
     background-color: black;
     color: #C0BABD;
-    min-height: 100vh; /* Garante que o body tenha pelo menos a altura da tela */
+    min-height: 100vh; 
     display: flex;
-    flex-direction: column; /* Coloca o conteúdo em coluna */
+    flex-direction: column; 
 }
 
 strong, span {
@@ -42,7 +42,7 @@ footer {
     margin-top: auto;
     padding: 10px 20px;
     display: flex;
-    flex-direction: column; /* Altera para layout de coluna */
+    flex-direction: column; 
     justify-content: center;
     align-items: center;
 }
