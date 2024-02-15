@@ -5,12 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portifolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
           
 </head>
 <body>
-    <header></header>
+    <header class="cabecalho">
+        <nav class="cabecalho__menu">
+            <a class="cabecalho__menu__link" href="/portfolio/index.html">Home</a>
+            <a class="cabecalho__menu__link" href="/portfolio/about.html">Sobre mim</a>
+        </nav>
+    </header>
     <main class="apresentacao">
         <section class="apresentacao__conteudo">
         <h1 class="apresentacao__conteudo__titulo">Eleve seu negócio digital a outro nível 
@@ -18,14 +23,31 @@
             </strong></h1>
             <p class="apresentacao__conteudo__texto">Olá! Sou Arimatéia Souza, também conhecido como Ari. Me especializo em desenvolvimento Back-end Java, proporcionando excelência e desempenho aos sistemas. Meus principais interesses atualmente envolvem Desenvolvimento Web Back-end e Análise de dados. Que tal discutirmos suas necessidades?</p>
             <div class="apresentacao__links">
-                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/arimateia-souza/" >
-                    <i class="devicon-linkedin-plain"></i> Linkedin</a>
-                <a class="apresentacao__links__link" href="https://github.com/arimateia-souza"> 
-                    <i class="devicon-github-original"></i> GitHub</a>
-            </div>
+                <h2 class="apresentacao__links__subtitulo">Acesse minhas redes</h2>
+                <a class="apresentacao__links__link" href="https://www.linkedin.com/in/arimateia-souza/">
+                    <i class="devicon-linkedin-plain"></i>Linkedin
+                </a>
+                                
+                <a class="apresentacao__links__link" href="https://github.com/arimateia-souza">
+                    <i class="devicon-github-original"></i>GitHub
+                </a>
+
+                <a class="apresentacao__links__link" href="https://vercel.com/arimateia-souzas-projects">        
+                    <i class="devicon-vercel-line"></i>Vercel
+                </a>
+                
+            </div> 
         </section>
-            <img src="/portfolio/imgs/Ari programming.jpg" alt="Foto da Ari Souza programando">
+            <div class="perfil">
+            <img class="foto_perfil" src="/portfolio/imgs/Ari programming.jpg" alt="Foto da Ari Souza programando">
+            <a class="apresentacao__links__link__perfil" href="https://vercel.com/arimateia-souzas-projects">        
+                <img class="img_botao" src="/portfolio/imgs/whatsapp-logo-background-29.png" alt="">Entrar em contato
+            </a>
+        </div>
+
     </main>
-    <footer></footer>
+    <footer class="rodape">
+        <p>Desenvoldido por Ari</p>
+    </footer>
 </body>
 </html>
